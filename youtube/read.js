@@ -1,3 +1,5 @@
+
+
 let fs = require('fs');
 fs.readFile("subFolder/ok.txt", "utf8", function(error, data) {
     if (error) {
