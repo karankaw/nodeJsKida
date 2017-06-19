@@ -1,0 +1,15 @@
+{
+  "name": "youtube",
+  "version": "1.0.0",
+  "description": "This is collection of NET NINJA's Tutorials on nodejs, yeah Could be better",
+  "main": "read.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Karan",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.3"
+  }
+}
