@@ -1,0 +1,22 @@
+{
+    "name": "@themate/quick-response-code",
+    "version": "1.0.2",
+    "description": "This package provides a promise to svg based QR code",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Karan Kaw",
+    "license": "ISC",
+    "dependencies": {
+        "png-svg": "0.0.2",
+        "qrcode": "^1.2.0",
+        "request": "^2.85.0",
+        "request-promise": "^4.2.2",
+        "request-promise-native": "^1.0.5"
+    },
+    "devDependencies": {
+        "chai": "^4.1.2",
+        "mocha": "^5.0.1"
+    }
+}
