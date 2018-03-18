@@ -23,3 +23,12 @@ promise2.catch(function(error) {
   console.log(2+error);
 });
 
+/*
+For exception handling, go with 
+promise(resolved, rejected) thing 
+or 
+promise(resolved).catch(); 
+for non-chained Promise, both are same, its like if a promise is not handled it will go next in chain
+and adding a catch should always be done at end for chained promises.
+*/
+
