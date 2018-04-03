@@ -1,0 +1,14 @@
+{
+  "name": "node-fetch-api",
+  "version": "1.0.0",
+  "description": "To show how you can use fetch api in node and its 2 Impl using both promises and async/await and how its an option against request node package",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-fetch": "^2.1.2"
+  }
+}
