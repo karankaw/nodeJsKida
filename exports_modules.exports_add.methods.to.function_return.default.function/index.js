@@ -19,3 +19,12 @@ function subtract(a,b){
 
 exports.subtract = subtract
 
+/*
+* References
+* https://medium.freecodecamp.org/node-js-module-exports-vs-exports-ec7e254d63ac
+*
+* It uses Node 'CommonJs' way
+*
+* All the methods are added to custom Function Object, i.e the Whole trick!
+*
+*/
